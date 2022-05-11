@@ -1,0 +1,98 @@
+body {
+    margin: 0; padding: 0;
+    background: rgb(136, 136, 223) url("../img/ocean-3605547.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh ;
+    font-family: 'Roboto';
+    color: lightsalmon;
+  }
+
+.caja{
+    display: flex;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.login{
+    background-color: rgb(22, 76, 122);
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+
+h1 {
+    font-family: 'Open Sans';
+}
+
+.f1_field {
+    margin-bottom: 10px;
+}
+
+.f1_field input {
+    width: 230px;
+    max-width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 40px;
+    font-family: 'Roboto';
+
+}
+
+#f1_check {
+    width: auto;
+    height: 20px;
+    width: 20px;
+    margin-left: 47px;
+
+}
+
+[for="check"] {
+    font-size: 13px;
+    position: relative;
+    top: -5px;
+}
+
+#f1_enviar {
+    background-color: coral;
+    font-family: 'Roboto';
+    border: 0;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(22, 76, 122);
+    font-size: 18px;
+    align-content: center;
+    width: 100px;
+    height: 40px;
+    margin-left: 33%;
+    font-weight: bold;
+    transition: tranbsform 0.3s ease-in-out;
+}
+
+#f1_enviar:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+#f1_email {
+    background:rgb(226, 218, 218, 0.5) url("../img/person_FILL0_wght400_GRAD0_opsz40.png") no-repeat 3px;
+    padding-left: 35px;
+    text-align: center; 
+}
+
+
+#f1_password {
+    background:rgb(226, 218, 218, 0.5) url("../img/key_FILL0_wght400_GRAD0_opsz40.png") no-repeat 3px;
+    padding-left: 35px;
+    text-align: center; 
+}
